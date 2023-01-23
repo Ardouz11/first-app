@@ -20,8 +20,8 @@ describe('AppController', () => {
     });
   });
   describe('hello', () => {
-    it('should return "Hello World from hello!"', () => {
-      expect(appController.getHello()).toBe('Hello World from hello!');
+    it('should return "Hello World from Hello!"', () => {
+      expect(appController.getHello()).toBe('Hello World from Hello!');
     });
   });
 });
